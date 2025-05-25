@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('shared/home');
+    return view('home');
 });
 
-Route::view('/login', 'Acounts/login');
+Route::view('/login', 'pages/accounts/login');

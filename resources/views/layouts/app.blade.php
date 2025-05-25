@@ -17,13 +17,13 @@
 
 <body>
 
-    @include('shared.header')
+    @include('components.header')
 
     <div class="container">
         @yield('content')
     </div>
 
-    @include('shared.footer')
+    @include('components.footer')
 
 </body>
 
